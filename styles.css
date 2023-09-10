@@ -1,0 +1,135 @@
+.main-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    flex: 1;    
+}
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2937;
+    height: 50px;
+}
+.top-image {
+    margin: 20px;
+}
+#header {
+    margin-left: 50px;
+    font-size: 24px;
+    color: #F9FaF8;
+} 
+.footer-links {
+    margin-right: 50px;
+}
+a:link {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 20px;
+}
+.top-text-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #1f2937;
+    padding-bottom: 40px;
+}
+.top-text {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.top-text h3{
+    font-size: 48px;
+    color: #F9FaF8;
+    margin-bottom: 0;
+}
+.top-text p {
+    font-size: 18x;
+    color: #E5E7EB;
+    margin-top: 0;
+   
+}
+button {
+    width: fit-content;
+    color: #F9FaF8;
+    background-color: #3882F6;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 0;
+    border-radius: 2px;
+}
+.middle-top-section {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image-box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+    padding: 20px;
+    width: 200px;
+}
+.middle-box {
+    display: flex;
+    margin-top: 0px;
+}
+.middle-box img {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #3882F6;
+    border-radius: 6px;  
+}
+.middle-bottom-section h3 {
+    font-size: 36px;
+    font-family: "light-italic";
+}
+.middle-bottom-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+}
+.quote-box {
+    width: 960px;
+    margin-bottom: 0px;
+}
+.quote-box p {
+    float:right;
+    margin-top: 0px;
+}
+.bottom-blue-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    width: 960px;
+    margin: 30px;
+    background-color: #3882F6;
+    color: #F9FaF8;
+}
+.bottom-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue-box-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blue-box-text {
+    display: block;
+    flex-direction: column;
+}
+.bottom-section button {
+    border: 1px solid #F9FaF8;
+    border-radius: 6px;}
